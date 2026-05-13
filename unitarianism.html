@@ -1,14 +1,45 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Unitarianism</title>
   <link rel="stylesheet" href="style.css">
+
+  <style>
+    .person-grid {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      margin-top: 20px;
+    }
+
+    .person {
+      width: 33%;
+      text-align: center;
+    }
+
+    .person img {
+      width: 100%;
+      max-width: 180px;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .text-left {
+      flex: 1;
+    }
+
+    .section {
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
 
 <body>
 
-<header><h1>Unitarianism</h1></header>
+<header>
+  <h1>Unitarianism</h1>
+</header>
 
 <nav>
   <a href="index.html">Home</a>
@@ -23,25 +54,45 @@
 
   <div class="section">
     <h2>What is Unitarianism?</h2>
-    <p>Unitarianism focused on reason, education, and moral improvement instead of emotional religious experiences.</p>
-    <img src="pic3.jpg" class="banner">
-  </div>
-
-  <div class="grid">
     <p>
-      Unitarians believed people should grow through logic and education rather than revival meetings.
+      Unitarianism was a religious movement that focused on reason, education, and moral improvement instead of emotional revival experiences.
     </p>
-    <img src="pic4.jpg">
   </div>
 
-  <div class="section">
-    <img src="pic5.jpg" class="banner">
+  <!-- SECTION: PEOPLE -->
+
+  <div class="person-grid">
+
+    <div class="person">
+      <img src="pic3.jpg">
+      <h3>Thomas Jefferson</h3>
+      <p>
+        Influenced Unitarian ideas by promoting reason and a rational approach to religion.
+      </p>
+    </div>
+
+    <div class="person">
+      <img src="pic4.jpg">
+      <h3>John Adams</h3>
+      <p>
+        Supported religious tolerance and encouraged thinking based on logic rather than strict doctrine.
+      </p>
+    </div>
+
+    <div class="person">
+      <img src="pic5.jpg">
+      <h3>Millard Fillmore</h3>
+      <p>
+        Supported religious diversity and helped create a culture where Unitarian ideas could grow.
+      </p>
+    </div>
+
   </div>
 
 </div>
 
 <footer>
-Copyright © Kale King All Rights Reserved.
+  Copyright © Kale King All Rights Reserved.
 </footer>
 
 </body>
